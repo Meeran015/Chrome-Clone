@@ -1,0 +1,41 @@
+.alignment {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    color: rgb(95, 99, 104);
+}
+
+.alignment p {
+    margin: 15px;
+}
+
+.alignment p a {
+    text-decoration: none;
+}
+
+.container {
+    width: fit-content;
+    border-radius: 40px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+    gap: 3px;
+    font-size: 14px;
+}
+
+.container ul li {
+    border-radius: 30px;
+    padding: 7px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.container ul li:hover {
+    background-color: #d4d4d44b
+}

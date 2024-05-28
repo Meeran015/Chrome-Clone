@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container img {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #202124;
+    font-size: 68px;
+    letter-spacing: -2.5px;
+}
+
+.text {
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-weight: 300;
+    font-size: 60px;
+    transition: background-color 0.4s ease-in;
+}

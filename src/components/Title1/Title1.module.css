@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    text-align: center;
+    color: #202124;
+    font-size: 60px;
+    letter-spacing: -2.5px;
+    margin-top: 100px;
+}
+
+.text {
+    padding: 10px 40px;
+    margin-right: 10px;
+    padding-left: 70px;
+    border-radius: 50px;
+    font-size: 60px;
+    position: relative;
+}
+
+.container img {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
