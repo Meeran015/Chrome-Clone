@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Chrome-Clone/static/css/main.b821897b.css",
+    "main.js": "/Chrome-Clone/static/js/main.e640ecb6.js",
+    "static/media/item3.png": "/Chrome-Clone/static/media/item3.855192e60d3204bbd89b.png",
+    "static/media/item2.png": "/Chrome-Clone/static/media/item2.4092e43a1f2e591ffe0f.png",
+    "static/media/item1.png": "/Chrome-Clone/static/media/item1.aa838a094088d7b7a876.png",
+    "index.html": "/Chrome-Clone/index.html",
+    "main.b821897b.css.map": "/Chrome-Clone/static/css/main.b821897b.css.map",
+    "main.e640ecb6.js.map": "/Chrome-Clone/static/js/main.e640ecb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b821897b.css",
+    "static/js/main.e640ecb6.js"
+  ]
+}
