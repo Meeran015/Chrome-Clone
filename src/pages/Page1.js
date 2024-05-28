@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react'
-import { gsap, Power2 } from 'gsap'
 import style from './page1.module.css'
 
 const Page1 = ({y}) => {
@@ -7,12 +6,10 @@ const Page1 = ({y}) => {
     const img = useRef(null);
     useEffect(()=>{
         if(y >= 1100) {
-        gsap.to(img.current, {
-            duration: 2,
-            rotation: 720,
-            ease: Power2.easeInOut,
-            left: '50%',
-        })
+        img.current.style.cssText=`duration: 2,
+        rotation: 720,
+        ease: Power2.easeInOut,
+        left: '50%'`
         }
     },[y])
 
